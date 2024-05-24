@@ -4077,7 +4077,7 @@ input.main-search-input:-ms-input-placeholder {
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 970px;
+  min-height: 870px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4411,9 +4411,10 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .main-slider-area.home-5 .slider-bg-three {
-  background: url(../img/home-5/h4-banner.webp);
+  background: url(../img/home-5/bg2.jpg);
   -webkit-clip-path: none;
           clip-path: none;
+  background-size: cover;
 }
 @media (max-width: 576px) {
   .main-slider-area.home-5 .slider-bg-three {
@@ -4472,7 +4473,7 @@ input.main-search-input:-ms-input-placeholder {
 @media (max-width: 576px) {
   .main-slider-area.home-5 .slider-bg-three .container .slider__content3 .main-title-four {
     font-size: 50px;
-    line-height: 30px;
+    line-height: 40px;
     margin-top: 30px;
     margin-bottom: 40px;
   }
