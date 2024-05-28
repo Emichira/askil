@@ -12051,7 +12051,7 @@ input.main-search-input:-ms-input-placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0 200px 0;
+  padding: 0 0 100px 0;
   background-size: cover;
   position: relative;
   z-index: 2;
@@ -12069,7 +12069,7 @@ input.main-search-input:-ms-input-placeholder {
   text-align: left;
 }
 @media (max-width: 1200px) {
-  .cta-area.cta-full5.home-5 .container .cta-bg5 .cta-wrapper .sect-title5 {
+  .cta-area.cta-full5.home-5 .container .cta-bg5 .cta-wrapper {
     font-size: 50px;
     text-align: center;
   }
@@ -12985,9 +12985,9 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 
-.counter-area.home-5 {
+/* .counter-area.home-5 {
   background-color: #f9f9f9;
-}
+} */
 .counter-area.home-5 .container .rts-counter-list {
   display: -webkit-box;
   display: -ms-flexbox;
