@@ -1864,16 +1864,19 @@ ul.breadcrumb li a::before {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .title-area3 {
     min-height: 450px;
+    background-position: right;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .title-area3 {
     min-height: 400px;
+    background-position: left;
   }
 }
 @media (max-width: 767px) {
   .title-area3 {
     min-height: 400px;
+    background-position: right;
   }
 }
 .title-area3::before {
