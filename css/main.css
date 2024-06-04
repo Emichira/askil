@@ -47,10 +47,19 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 /*  Theme Font */
-@import url("../../../../../fonts.googleapis.com/css2%3Ffamily=DM+Sans:wght@400%3B500%3B700&display=swap.css");
+/* @import url("../../../../../fonts.googleapis.com/css2%3Ffamily=DM+Sans:wght@400%3B500%3B700&display=swap.css");
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 800 */
+
+.eb-garamond-font {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
 /* 1. Theme default css */
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "EB Garamond", serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -123,7 +132,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "EB Garamond", serif;
   color: #333333;
   line-height: 1.1;
   margin-top: 0px;
@@ -181,7 +190,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "EB Garamond", serif;
   color: #777777;
   margin-bottom: 0;
 }
@@ -1682,9 +1691,9 @@ label {
   border-radius: 50%;
   float: left;
 }
-.head-logo-height {
+/* .head-logo-height {
   height: 60px;
-}
+} */
 
 .page-title-area {
   background-size: cover;
@@ -2376,11 +2385,11 @@ ul.breadcrumb li a::before {
     - fonts
 -----------------------------------------*/
 .body-font {
-  font-family: "DM Sans", sans-serif;
+  font-family: "EB Garamond", serif;
 }
 
 .heding-font {
-  font-family: "DM Sans", sans-serif;
+  font-family: "EB Garamond", serif;
 }
 
 .uppercase {
@@ -3276,7 +3285,7 @@ input.main-search-input:-ms-input-placeholder {
   background-image: linear-gradient(100deg, #086ad8 0%, #378cff 100%);
   background-image: linear-gradient(100deg, #086ad8 0%, #378cff 100%);
   font-size: 16px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "EB Garamond", serif;
   font-weight: 700;
   line-height: 1;
   padding: 22px 36px;
@@ -12305,7 +12314,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .contact-us-area.area-7 {
-  background: url(../img/home-5/h4-video-thumbnail.webp);
+  background: url(../img/bg/arch.jpg);
   background-position: center right;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.7);
