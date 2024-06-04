@@ -587,6 +587,7 @@ label {
 
 .logo-area img {
   max-width: 100%;
+  max-height: 70px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1683,9 +1684,6 @@ label {
 }
 .head-logo-height {
   height: 60px;
-}
-.head-logo-heigh-footer {
-  height: 100px;
 }
 
 .page-title-area {
@@ -4420,7 +4418,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .main-slider-area.home-5 .slider-bg-three {
-  background: url(../img/logo/header-4.png);
+  background: url(../img/bg/sean.jpg);
   -webkit-clip-path: none;
           clip-path: none;
   background-size: cover;
@@ -12063,27 +12061,27 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .cta-area.cta-full5.home-5 {
-  background: url(../img/logo/strategy.jpeg) no-repeat;
-  background-position: center;
+  background: url(../img/bg/arch.jpg) no-repeat;
+  background-position: top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0 80px 0;
+  padding: 0 0 40px 0;
   background-size: cover;
   position: relative;
   z-index: 2;
 }
 @media (max-width: 576px) {
   .cta-area.cta-full5.home-5 {
-    padding: 0 0 80px 0;
+    padding: 0 0 40px 0;
   }
 }
 .cta-area.cta-full5.home-5 .container .cta-bg5 .cta-wrapper .sect-title5 {
-  padding-top: 100px;
+  padding-top: 60px;
   font-size: 58px;
   font-weight: bold;
   line-height: 1.2;
-  text-align: left;
+  /* text-align: left; */
 }
 @media (max-width: 1200px) {
   .cta-area.cta-full5.home-5 .container .cta-bg5 .cta-wrapper {
@@ -12099,6 +12097,7 @@ input.main-search-input:-ms-input-placeholder {
 @media (max-width: 450px) {
   .cta-area.cta-full5.home-5 .container .cta-bg5 .cta-wrapper .sect-title5 {
     font-size: 26px;
+    text-align: center;
   }
 }
 .cta-area.cta-full5.home-5 .container .cta-bg5 .cta-wrapper .about-video-wrapper {
