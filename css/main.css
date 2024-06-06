@@ -6018,6 +6018,7 @@ input.main-search-input:-ms-input-placeholder {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: auto;
+  background: #1C1C1C;
 }
 .about-us-area.home-5 .container .about-text-wrapper2 {
   margin: 0 0 0 40px;
@@ -6030,7 +6031,7 @@ input.main-search-input:-ms-input-placeholder {
 .about-us-area.home-5 .container .about-text-wrapper2 .semi-title {
   font-size: 14px;
   font-weight: 700;
-  color: #777;
+  color: #fff;
   margin: 0 0 7px;
   padding: 0;
   line-height: 1;
@@ -6046,7 +6047,7 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 .about-us-area.home-5 .container .about-text-wrapper2 .sect-title {
-  color: #000;
+  color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 70px;
@@ -6132,7 +6133,7 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 .about-us-area.home-5 .container .about-text-wrapper2 .text-list li .services-list .services-text h5 {
-  color: #000;
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: -0.3px;
@@ -6146,18 +6147,18 @@ input.main-search-input:-ms-input-placeholder {
 }
 .about-us-area.home-5 .container .about-text-wrapper2 .text-list li .services-list .services-text p {
   margin: 0 0 26px;
-  color: #333;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
 .about-us-area.home-5 .container .about-text-wrapper2 .paragraph-title2 {
-  color: #212529;
+  color: #ffffff;
   margin: 12px 0 0;
   padding: 32px 0 0;
   border-style: solid;
   border-width: 1px 0 0;
-  border-color: #202f45;
+  border-color: #ffffff;
 }
 .about-us-area.home-5 .container .about-text-wrapper2 h6 {
   font-size: 14px;
@@ -7267,7 +7268,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 .service-area-7 .container .service-area-inner .item {
   /* background: #fff; */
-  padding: 45px 45px 30px 45px;
+  padding: 0px 30px 30px 30px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   margin-bottom: 1rem;
@@ -7286,7 +7287,7 @@ input.main-search-input:-ms-input-placeholder {
   transition: all 0.4s;
 }
 .service-area-7 .container .service-area-inner .item .content {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .service-area-7 .container .service-area-inner .item .content .sub-title {
   color: #086ad9;
@@ -10846,6 +10847,8 @@ input.main-search-input:-ms-input-placeholder {
   font-weight: bold;
   line-height: 1.2;
   color: #ffd700;
+  position: relative;
+  z-index: 1;
   /* text-align: left; */
 }
 @media (max-width: 1200px) {
