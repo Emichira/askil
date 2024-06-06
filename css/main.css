@@ -187,11 +187,11 @@ li {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 28px;
   font-family: "EB Garamond", serif;
-  color: #777777;
+  color: #000000;
   margin-bottom: 0;
 }
 
@@ -3415,7 +3415,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .semi-title {
-  color: #777;
+  color: #000000;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0px;
@@ -3485,7 +3485,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .paragraph-title {
-  color: #777777;
+  color: #000000;
   font-size: 18px;
   line-height: 28px;
 }
@@ -7242,7 +7242,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .service-area-7 {
-  background-color: #FFD700;
+  background-color: #DAA520;
 }
 .service-area-7 .container .section-title p {
   font-size: 18px;
@@ -9717,7 +9717,7 @@ input.main-search-input:-ms-input-placeholder {
 .testimonial-text-wrapper2 {
   border: 1px solid rgb(241, 241, 241);
   border-radius: 6px;
-  background: #ffffff;
+  background: #1C1C1C;
   -webkit-box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
           box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
   padding: 37px 57px 40px 40px;
@@ -9735,7 +9735,7 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 .testimonial-text-wrapper2 h5 {
-  color: #777777;
+  color: #ffffff;
   font-weight: 400;
   line-height: 1.54;
   margin-bottom: 26px;
@@ -9952,10 +9952,10 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .testimonial-area.home-5 {
-  background: #FFD700;
+  background: #DAA520;
 }
 .testimonial-area.home-5 .container .core-feature-title .lh-1 {
-  color: #777;
+  color: #000000;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -10006,17 +10006,17 @@ input.main-search-input:-ms-input-placeholder {
   padding-top: 30px;
 }
 .testimonial-area.home-5 .container .testimonial-slide4 .item .testimonial-text-wrapper2 .author-box .author-content h6 {
-  color: #FFD700;
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
 }
 .testimonial-area.home-5 .container .testimonial-slide4 .item .testimonial-text-wrapper2 .author-box .author-content p {
-  color: #777;
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
-  -webkit-text-fill-color: #777;
+  -webkit-text-fill-color: #fff;
 }
 @media (max-width: 1200px) {
   .testimonial-area.home-5 .container .testimonial-slide4 .item .testimonial-text-wrapper2 h5 {
@@ -13893,7 +13893,7 @@ input.main-search-input:-ms-input-placeholder {
   width: 100%;
   height: 60px;
   padding-left: 45px;
-  background: rgb(43, 43, 43);
+  background: rgb(245, 245, 245);
 }
 .subscribe-form input::-webkit-input-placeholder {
   color: #6d6d6d;
